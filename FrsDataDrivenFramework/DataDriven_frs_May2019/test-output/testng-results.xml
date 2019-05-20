@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="1" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-05-18T04:06:28Z" name="SuiteName" finished-at="2019-05-18T04:06:41Z" duration-ms="13555">
+    <groups>
+    </groups>
+    <test started-at="2019-05-18T04:06:28Z" name="Login Test" finished-at="2019-05-18T04:06:41Z" duration-ms="13555">
+      <class name="com.selenium.frs.project.testcases.LoginTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.selenium.frs.project.testcases.LoginTest@764faa6]" started-at="2019-05-17T21:06:29Z" name="init" finished-at="2019-05-17T21:06:29Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.selenium.frs.project.testcases.LoginTest@764faa6]" started-at="2019-05-17T21:06:29Z" name="init" finished-at="2019-05-17T21:06:29Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="doLoginTest(java.util.Hashtable)[pri:0, instance:com.selenium.frs.project.testcases.LoginTest@764faa6]" started-at="2019-05-17T21:06:29Z" name="doLoginTest" data-provider="getData" finished-at="2019-05-17T21:06:29Z" duration-ms="14" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=mercury, ExpectedResult=N, Password=invalidpwd, Runmode=N, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as runmode is N]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as runmode is N
+	at com.selenium.frs.project.testcases.LoginTest.doLoginTest(LoginTest.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method signature="doLoginTest(java.util.Hashtable)[pri:0, instance:com.selenium.frs.project.testcases.LoginTest@764faa6]" started-at="2019-05-17T21:06:29Z" name="doLoginTest" data-provider="getData" finished-at="2019-05-17T21:06:41Z" duration-ms="12252" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=mercury, ExpectedResult=Y, Password=mercury, Runmode=Y, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.selenium.frs.project.testcases.LoginTest@764faa6]" started-at="2019-05-17T21:06:29Z" name="quit" finished-at="2019-05-17T21:06:29Z" duration-ms="513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.selenium.frs.project.testcases.LoginTest@764faa6]" started-at="2019-05-17T21:06:41Z" name="quit" finished-at="2019-05-17T21:06:41Z" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.selenium.frs.project.testcases.LoginTest -->
+    </test> <!-- Login Test -->
+  </suite> <!-- SuiteName -->
+</testng-results>
